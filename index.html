@@ -56,17 +56,20 @@
         <div class="custom-background-1 rounded-2xl h-[450px] lg:h-[580px]">
             <div class="px-10 pt-12 lg:pt-24 space-y-10 text-center">
                 <h1 class="text-3xl lg:text-6xl text-white font-extrabold drop-shadow-2xl">End-to-End Travel
-                    with<br><span class="text-[#1DD100] drop-shadow-2xl">P
+                    with<br><span class="text-[#1DD100] drop-shadow-2xl">Prime
                         Paribahan</span></h1>
-                <p class="text-white">P Paribahan provides the best bus tranpotaion service for the travelers. We are
+                <p class="text-white">Prime Paribahan provides the best bus tranpotaion service for the travelers. We
+                    are
                     affordable and disciplined.<br>You can book a ride here and also through the app</p>
                 <div class="card-actions justify-center">
-                    <button class="text-xl font-bold rounded-lg bg-[#1DD100] text-black px-5 py-4">Buy Tickets</button>
+                    <a href="#booking" class="text-xl font-bold rounded-lg bg-[#1DD100] text-black px-5 py-4">
+                        Buy
+                        Tickets</a>
                 </div>
             </div>
         </div>
     </header>
-    <main>
+    <main id="body">
         <!--Best offers -->
         <section class="mt-28 space-y-10 text-center w-11/12 mx-auto">
             <h1 class="font-bold text-[40px] text-center">Best offers for you</h1>
@@ -108,8 +111,9 @@
         </section>
 
         <!-- Booking section -->
-        <section class="w-full border-t border-[#1DD100] rounded-[50px] bg-[#F7F8F8] mt-28 space-y-6 pb-32">
-            <h1 class="font-bold text-[40px] text-center pt-10 pb-4">P.H Paribahan</h1>
+        <section id="booking"
+            class="w-full border-t border-[#1DD100] rounded-[50px] bg-[#F7F8F8] mt-28 space-y-6 pb-32">
+            <h1 class="font-bold text-[40px] text-center pt-10 pb-4">Prime Paribahan</h1>
             <p class="text-center">Here you can book and purchase a ticket.You can also purchase a maximum of 4
                 tickets at a time.
                 <br>Make
@@ -131,7 +135,7 @@
                             <i class="fa-solid fa-magnifying-glass fa-lg text-[#424247]"></i>
                             <a
                                 class="text-lg lg:text-xl font-semibold rounded-lg bg-[#b5f0ac] border-[#1DD100] text-[#1DD100] px-5 py-2 flex gap-3"><img
-                                    src="images/seat-green.png" alt=""><span>40</span> seats left
+                                    src="images/seat-green.png" alt=""><span id="available-seat">40</span> seats left
                             </a>
                         </div>
                     </div>
@@ -163,7 +167,7 @@
                     <p class="text-xl">Per Seat</p>
                 </div>
             </div>
-            <div class="w-11/12 grid grid-cols-2 mx-auto bg-white rounded-2xl">
+            <div class="w-11/12 grid grid-cols-1 lg:grid-cols-2 mx-auto bg-white rounded-2xl">
                 <!-- seat selection -->
                 <div class="p-10 space-y-5">
                     <h1 class="font-semibold text-2xl">Select Your Seat</h1>
@@ -193,47 +197,87 @@
                             <div class="px-10 py-4 rounded-xl">I</div>
                             <div class="px-10 py-4 rounded-xl">J</div>
                         </div>
-                        <div class="grid grid-cols-4 text-center gap-10">
-                            <div id="A1" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">A1</div>
-                            <div id="A2" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">A2</div>
-                            <div id="A3" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">A3</div>
-                            <div id="A4" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">A4</div>
-                            <div id="B1" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">B1</div>
-                            <div id="B2" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">B2</div>
-                            <div id="B3" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">B3</div>
-                            <div id="B4" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">B4</div>
-                            <div id="C1" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">C1</div>
-                            <div id="C2" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">C2</div>
-                            <div id="C3" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">C3</div>
-                            <div id="C4" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">C4</div>
-                            <div id="D1" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">D1</div>
-                            <div id="D2" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">D2</div>
-                            <div id="D3" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">D3</div>
-                            <div id="D4" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">D4</div>
-                            <div id="E1" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">E1</div>
-                            <div id="E2" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">E2</div>
-                            <div id="E3" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">E3</div>
-                            <div id="E4" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">E4</div>
-                            <div id="F1" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">F1</div>
-                            <div id="F2" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">F2</div>
-                            <div id="F3" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">F3</div>
-                            <div id="F4" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">F4</div>
-                            <div id="G1" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">G1</div>
-                            <div id="G2" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">G2</div>
-                            <div id="G3" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">G3</div>
-                            <div id="G4" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">G4</div>
-                            <div id="H1" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">H1</div>
-                            <div id="H2" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">H2</div>
-                            <div id="H3" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">H3</div>
-                            <div id="H4" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">H4</div>
-                            <div id="I1" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">I1</div>
-                            <div id="I2" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">I2</div>
-                            <div id="I3" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">I3</div>
-                            <div id="I4" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">I4</div>
-                            <div id="J1" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">J1</div>
-                            <div id="J2" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">J2</div>
-                            <div id="J3" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">J3</div>
-                            <div id="J4" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">J4</div>
+                        <div id="seats" class="grid grid-cols-4 text-center gap-10">
+                            <div id="A1" onclick="handleClickEvent('A1')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">A1
+                            </div>
+                            <div id="A2" onclick="handleClickEvent('A2')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">A2
+                            </div>
+                            <div id="A3" onclick="handleClickEvent('A3')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">A3
+                            </div>
+                            <div id="A4" onclick="handleClickEvent('A4')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">A4
+                            </div>
+                            <div id="B1" onclick="handleClickEvent('B1')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">B1
+                            </div>
+                            <div id="B2" onclick="handleClickEvent('B2')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">B2
+                            </div>
+                            <div id="B3" onclick="handleClickEvent('B3')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">B3
+                            </div>
+                            <div id="B4" onclick="handleClickEvent('B4')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">B4
+                            </div>
+                            <div id="C1" onclick="handleClickEvent('C1')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">C1
+                            </div>
+                            <div id="C2" onclick="handleClickEvent('C2')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">C2
+                            </div>
+                            <div id="C3" onclick="handleClickEvent('C3')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">C3
+                            </div>
+                            <div id="C4" onclick="handleClickEvent('C4')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">C4
+                            </div>
+                            <div id="D1" onclick="handleClickEvent('D1')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">D1
+                            </div>
+                            <div id="D2" onclick="handleClickEvent('D2')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">D2
+                            </div>
+                            <div id="D3" onclick="handleClickEvent('D3')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">D3
+                            </div>
+                            <div id="D4" onclick="handleClickEvent('D4')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">D4
+                            </div>
+                            <div id="E1" onclick="handleClickEvent('E1')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">E1
+                            </div>
+                            <div id="E2" onclick="handleClickEvent('E2')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">E2
+                            </div>
+                            <div id="E3" onclick="handleClickEvent('E3')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">E3
+                            </div>
+                            <div id="E4" onclick="handleClickEvent('E4')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">E4
+                            </div>
+                            <div id="F1" onclick="handleClickEvent('F1')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">F1
+                            </div>
+                            <div id="F2" onclick="handleClickEvent('F2')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">F2
+                            </div>
+                            <div id="F3" onclick="handleClickEvent('F3')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">F3
+                            </div>
+                            <div id="F4" onclick="handleClickEvent('F4')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">F4
+                            </div>
+                            <div id="G1" onclick="handleClickEvent('G1')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">G1
+                            </div>
+                            <div id="G2" onclick="handleClickEvent('G2')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">G2
+                            </div>
+                            <div id="G3" onclick="handleClickEvent('G3')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">G3
+                            </div>
+                            <div id="G4" onclick="handleClickEvent('G4')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">G4
+                            </div>
+                            <div id="H1" onclick="handleClickEvent('H1')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">H1
+                            </div>
+                            <div id="H2" onclick="handleClickEvent('H2')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">H2
+                            </div>
+                            <div id="H3" onclick="handleClickEvent('H3')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">H3
+                            </div>
+                            <div id="H4" onclick="handleClickEvent('H4')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">H4
+                            </div>
+                            <div id="I1" onclick="handleClickEvent('I1')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">I1
+                            </div>
+                            <div id="I2" onclick="handleClickEvent('I2')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">I2
+                            </div>
+                            <div id="I3" onclick="handleClickEvent('I3')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">I3
+                            </div>
+                            <div id="I4" onclick="handleClickEvent('I4')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">I4
+                            </div>
+                            <div id="J1" onclick="handleClickEvent('J1')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">J1
+                            </div>
+                            <div id="J2" onclick="handleClickEvent('J2')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">J2
+                            </div>
+                            <div id="J3" onclick="handleClickEvent('J3')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">J3
+                            </div>
+                            <div id="J4" onclick="handleClickEvent('J4')" class="bg-[#F7F8F8] px-10 py-4  rounded-xl">J4
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -247,25 +291,14 @@
                             <table class="table text-center">
                                 <!-- head -->
                                 <thead>
-                                    <tr class="text-black">
-                                        <th>Seat <span class="text-[#1DD100]">2</span></th>
+                                    <tr class="text-black text-[16px]">
+                                        <th>Seat <span id="selected-seat" class="text-[#1DD100]">0</span></th>
                                         <th>Class</th>
                                         <th>Price</th>
                                     </tr>
                                 </thead>
-                                <tbody>
-                                    <!-- row 1 -->
-                                    <tr class="text-gray-500">
-                                        <td>C2</td>
-                                        <td>Economy</td>
-                                        <td>550</td>
-                                    </tr>
-                                    <!-- row 2 -->
-                                    <tr class="text-gray-500">
-                                        <td>C1</td>
-                                        <td>Economy</td>
-                                        <td>550</td>
-                                    </tr>
+                                <tbody id="tBody">
+
                                 </tbody>
                             </table>
                         </div>
@@ -273,17 +306,19 @@
                         <!-- total price -->
                         <div class="flex justify-between px-16 py-4">
                             <p>Total Price</p>
-                            <p>BDT<span>1100</span></p>
+                            <p>BDT<span id="total-price">0</span></p>
                         </div>
                         <!-- coupon input -->
-                        <div class="flex p-4">
-                            <input type="text" placeholder="Have any coupon?" class="input w-11/12 mx-auto" />
-                            <button class="px-4 py-2 bg-[#1DD100] text-white rounded-xl">Apply</button>
+                        <div class="flex p-4" id="discount-field">
+                            <input id="coupon" type="text" placeholder="Have any coupon?"
+                                class="input w-11/12 mx-auto" />
+                            <button id="coupon-btn" onclick="discount()"
+                                class="px-4 py-2 bg-[#1DD100] text-white rounded-xl">Apply</button>
                         </div>
                         <!-- grand total -->
                         <div class="flex justify-between px-16 py-4">
                             <p>Grand Price</p>
-                            <p>BDT<span>1100</span></p>
+                            <p>BDT<span id="grand-price">0</span></p>
                         </div>
                     </div>
                     <!-- Ticket input -->
@@ -304,8 +339,8 @@
                                 class="border border-gray-200 input w-full mx-auto" />
                         </div>
                         <div>
-                            <button
-                                class="w-full bg-[#1DD100] py-3 rounded-2xl font-bold text-white text-xl">Next</button>
+                            <button class="w-full bg-[#1DD100] py-3 rounded-2xl font-bold text-white text-xl"
+                                onclick="thankYou()">Next</button>
                         </div>
                     </div>
                     <div class="flex justify-around">
@@ -316,6 +351,18 @@
             </div>
         </section>
     </main>
+    <!-- thank you note -->
+    <section id="thanks" class="bg-[#F7F8F8] p-40 hidden">
+        <div class="w-[550px] h-96 flex flex-col items-center justify-center gap-5 mx-auto bg-white p-10 rounded-2xl">
+            <img src="images/success.png" alt="">
+            <h1 class="font-bold text-2xl text-[#27AE60]">Success</h1>
+            <p class="text-xl text-center">Thank you for Booking Our Bus Seats. <br>
+                We are working hard to find the best service and deals for you.<br>
+                Shortly you will find a confirmation in your email.</p>
+            <button id="continue" onclick="continueMore()"
+                class="px-24 py-2 bg-green-500 text-white text-xl font-bold rounded-3xl">Continue</button>
+        </div>
+    </section>
     <footer class=" p-10 bg-black text-neutral-content">
         <div class="flex justify-between mx-auto w-11/12">
             <aside>
@@ -343,6 +390,9 @@
             </div>
         </div>
     </footer>
+
+    <script src="scripts/utility.js"></script>
+    <script src="scripts/ticket.js"></script>
 </body>
 
 </html>
